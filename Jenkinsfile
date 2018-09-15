@@ -8,10 +8,6 @@ pipeline {
         echo 'after step1'
       }
     }
-    stage('') {
-      steps {
-        timestamps()
-      }
-    }
+    
   }
 }
